@@ -20,6 +20,8 @@ osascript <<EOD
 EOD
 
 # Install Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 
 # Disable Download quarantine 
 defaults write com.apple.LaunchServices LSQuarantine -bool NO
